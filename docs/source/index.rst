@@ -6,10 +6,6 @@
 Quality Nexus documentation
 ===========================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
-
 
 .. toctree::
    :maxdepth: 2
@@ -26,31 +22,33 @@ To install **Quality Nexus**, you must have **Python 3.11**, **3.10**, or **3.9*
 
 1. Clone the repository:
 
-```
-git clone https://github.com/M-T-OUHADDA/Quality-Nexus.git cd Quality-Nexus
-```
+.. code-block:: bash
+
+    git clone https://github.com/ouhadda/Quality-Nexus.git
+    cd Quality-Nexus
 
 2. Create a virtual environment:
 
-```
-python -m venv venv
-```
+.. code-block:: bash
+   python -m venv venv
+
 
 3. Activate the virtual environment:
 - On Windows:
-  ```
-  venv\Scripts\activate
-  ```
+.. code-block:: PowerShell
+   venv\Scripts\activate
+ 
+
 - On macOS/Linux:
-  ```
-  source venv/bin/activate
-  ```
+.. code-block:: bash
+   source venv/bin/activate
+
 
 4. Install dependencies:
 
-```
-pip install -r requirements.txt
-```
+.. code-block:: bash
+   pip install -r requirements.txt
+
 
 
 Usage
@@ -83,22 +81,22 @@ If you would like to contribute to **Quality Nexus**, please follow these steps:
 1. Fork the repository to your own GitHub account.
 2. Create a new branch for your feature or bug fix:
 
-```
-git checkout -b feature-name
-```
+.. code-block:: bash
+   git checkout -b feature-name
+
 
 3. Make your changes and commit them:
 
-```
-git commit -am 'Add new feature'
+.. code-block:: bash
+   git commit -am 'Add new feature'
 
-```
+
 
 4. Push your changes to your fork:
 
-```
-git push origin feature-name
-```
+.. code-block:: bash
+   git push origin feature-name
+
 
 5. Submit a pull request.
 

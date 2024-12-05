@@ -1,0 +1,39 @@
+# Ignore Python virtual environments
+myenv/
+env/
+
+# Ignore Sphinx build output
+build/
+
+# Ignore temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+*~
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor settings
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore Read the Docs build artifacts
+docs/_build/
+docs/build/
+
+# Ignore Sphinx autosummary-generated files (if using autosummary extension)
+autosummary/
+
+# Ignore any potential personal or sensitive files
+*.key
+*.crt

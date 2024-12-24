@@ -1,108 +1,101 @@
+
 .. Quality Nexus documentation master file, created by
-   sphinx-quickstart on Thu Dec  5 09:56:24 2024.
+   sphinx-quickstart on Thu Dec 5 09:56:24 2024.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Quality Nexus documentation
+Quality Nexus Documentation
 ===========================
-
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-
-   modules
+       modules
 
 Overview
 --------
-Quality Nexus is a project that helps predict various manufacturing specifications using machine learning models. It can be used for tasks such as predicting production cost and defect status based on input data. The tool aims to streamline decision-making in manufacturing environments by leveraging predictive analytics.
+**Quality Nexus** is a project that uses machine learning models to predict various manufacturing specifications. It helps predict production costs, defect statuses, and other specifications based on input data, aiming to streamline decision-making in manufacturing environments through predictive analytics.
 
 Installation
 ------------
-To install **Quality Nexus**, you must have **Python 3.11**, **3.10**, or **3.9**. Follow the steps below:
+To install **Quality Nexus**, make sure you have **Python 3.11**, **3.10**, or **3.9**. Follow these steps:
 
-1. Clone the repository:
+1. **Clone the repository**:
+   .. code-block:: bash
 
-.. code-block:: bash
+      git clone https://github.com/ouhadda/Quality-Nexus.git
+      cd Quality-Nexus
 
-    git clone https://github.com/ouhadda/Quality-Nexus.git
-    cd Quality-Nexus
+2. **Create a virtual environment**:
+   .. code-block:: bash
 
-2. Create a virtual environment:
+      python -m venv venv
 
-.. code-block:: bash
-   python -m venv venv
+3. **Activate the virtual environment**:
+    - On Windows:
 
+    .. code-block:: PowerShell
 
-3. Activate the virtual environment:
-- On Windows:
-.. code-block:: PowerShell
-   venv\Scripts\activate
- 
-
-- On macOS/Linux:
-.. code-block:: bash
-   source venv/bin/activate
+      venv\Scripts\activate
 
 
-4. Install dependencies:
+    - On macOS/Linux:
 
-.. code-block:: bash
-   pip install -r requirements.txt
+    .. code-block:: bash
 
+      source venv/bin/activate
 
+4. **Install dependencies**:
+   .. code-block:: bash
+
+      pip install -r requirements.txt
 
 Usage
 -----
-There are three main ways to interact with **Quality Nexus**:
+There are three primary ways to interact with **Quality Nexus**:
 
 1. **Predicting a Single Value**:
-- Use sliders and number inputs in the Streamlit interface to predict a single manufacturing specification (e.g., production cost or defect status).
+   - Use the Streamlit interface with sliders and input fields to predict a specific manufacturing specification (e.g., production cost or defect status).
 
 2. **Editing a Whole DataFrame**:
-- You can also edit a whole dataset in a DataFrame format to make multiple predictions based on your adjustments.
+   - Modify an entire dataset in a DataFrame format and make multiple predictions based on your adjustments.
 
 3. **Uploading a CSV**:
-- Upload a CSV file containing your data, and **Quality Nexus** will process it to generate predictions for each row.
-
+   - Upload a CSV file containing data, and **Quality Nexus** will process it and generate predictions for each row.
 
 API Reference
 -------------
-Currently, **Quality Nexus** does not use an external API. It is deployed as a **Streamlit** application, and you can interact with it directly through the Streamlit interface.
-
+Currently, **Quality Nexus** does not rely on an external API. It is deployed as a **Streamlit** application, which allows direct interaction through the Streamlit interface.
 
 Examples
 --------
-More examples of how to use the tool will be provided soon. Stay tuned!
+More usage examples will be provided soon. Stay tuned for updates!
 
 Contributing
 ------------
-If you would like to contribute to **Quality Nexus**, please follow these steps:
+If you'd like to contribute to **Quality Nexus**, follow these steps:
 
-1. Fork the repository to your own GitHub account.
-2. Create a new branch for your feature or bug fix:
+1. **Fork the repository** to your GitHub account.
+2. **Create a new branch** for your feature or bug fix:
+   .. code-block:: bash
 
-.. code-block:: bash
-   git checkout -b feature-name
+      git checkout -b feature-name
 
+3. **Make your changes** and commit them:
+   .. code-block:: bash
 
-3. Make your changes and commit them:
+      git commit -am 'Add new feature'
 
-.. code-block:: bash
-   git commit -am 'Add new feature'
+4. **Push your changes** to your fork:
+   .. code-block:: bash
 
+      git push origin feature-name
 
+5. **Submit a pull request**.
 
-4. Push your changes to your fork:
-
-.. code-block:: bash
-   git push origin feature-name
-
-
-5. Submit a pull request.
-
-For any further questions or help, feel free to reach out through issues or contact.
+For further questions or help, feel free to reach out through issues or contact.
 
 FAQ
 ---
 This section will be updated soon with frequently asked questions.
+

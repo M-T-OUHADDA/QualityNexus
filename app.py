@@ -349,8 +349,7 @@ def main():
                 if isinstance(input_data, pd.DataFrame):
                     st.subheader("Aggregated Data:")
                     st.write(input_data.agg(['sum', 'mean', 'median', 'std', 'min', 'max']))     
-        if st.button("Save Log"):
-            st.tab()
+
 
 
 

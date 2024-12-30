@@ -4,7 +4,7 @@
 
 **Quality Nexus** is a machine learning application designed to predict crucial industrial parameters, leveraging the power of Pycaret for model optimization and Streamlit for a user-friendly, interactive dashboard.  This project demonstrates how to achieve high model accuracy and enhance dashboard accessibility, making it a valuable tool for industrial monitoring and analysis.
 
-![Quality Nexus Demo]()
+![Quality Nexus Demo](/../res/demo.gif)
 
 ## Introduction
 
@@ -44,7 +44,7 @@ This documentation will guide you through:
 *   [Streamlit](https://streamlit.io/)
 *   [Pandas](https://pandas.pydata.org/)
 *   [Scikit-learn](https://scikit-learn.org/)
-*   [Bokeh](https://bokeh.org/)
+*   [Plotly](https://plotly.com/)
 
 ## Contributing
 

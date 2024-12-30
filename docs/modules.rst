@@ -1,5 +1,5 @@
-QN
-==
+Quality Nexus
+=============
 
 .. toctree::
    :maxdepth: 4
